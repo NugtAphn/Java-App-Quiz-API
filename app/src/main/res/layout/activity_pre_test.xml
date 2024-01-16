@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/imagePreTest"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="?selectableItemBackgroundBorderless"
+        android:padding="4dp"
+        app:srcCompat="@drawable/arrow" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bài thi trắc nghiệm"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewContent1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Bạn chuẩn bị tham gia bài thi trắc nghiệm sau khi ấn bắt đầu thi"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textViewContent2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Bài thi trắc nghiệm có tổng cộng 10 câu hỏi"
+        android:layout_below="@id/textViewContent1"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textViewContent3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Bạn có 10 phút để hoàn thành và nộp bài"
+        android:layout_below="@id/textViewContent2"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/textViewContent4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. Hãy chọn kỹ đáp án trước khi chuyển sang câu hỏi tiếp theo"
+        android:layout_below="@id/textViewContent3"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btn_StartExam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewContent4"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="40dp"
+        android:text="Bắt đầu thi"
+        android:textSize="24dp" />
+</RelativeLayout>

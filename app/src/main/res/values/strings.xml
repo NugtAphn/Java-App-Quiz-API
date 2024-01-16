@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Hutech Quizz</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Mật khẩu</string>
+    <string name="action_sign_in">Đăng Nhập</string>
+    <string name="action_sign_in_short">Đăng ký</string>
+    <string name="welcome">"Chào mừng"</string>
+    <string name="invalid_username">Mã số không hợp lệ</string>
+    <string name="invalid_password">Mật khẩu cần dài hơn 5 ký tự</string>
+    <string name="login_failed">"Đăng nhập thất bại"</string>
+    <string name="sign_up_sub_title">Vui lòng nhập tài khoàn và mật khẩu của bạn!!!</string>
+    <string name="sign_up_title">HUTECH QUIZZ APP</string>
+    <string name="welcome_hutech_quizz">Chào mừng đến Hutech Quizz</string>
+    <string name="menu">Trang chủ</string>
+    <string name="dialog_quit_game">Bạn muốn đăng xuất ?</string>
+    <string name="no">No\n</string>
+    <string name="yes">Yes\n</string>
+    <string name="rule_1">Bài kiểm tra sẽ có 10 câu hỏi và sẽ có 10 phút làm bài</string>
+    <string name="rule_2">Chuẩn bị đầy đủ trước khi vào bài thi</string>
+    <string name="rule_3">Không nên gian lận từ nguồn khác khi làm bài thi</string>
+    <string name="rule_4">Được phép ghi chú trong quá trình làm bài</string>
+    <string name="mathematics">Mathematics</string>
+
+</resources>
